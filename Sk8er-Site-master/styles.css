@@ -1,0 +1,238 @@
+/* This was to darken the background image */
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/bg.jpg");
+}
+
+
+/* to move the contents of the elements at the very top of the page to the right */
+
+.top {
+    position: relative;
+    text-align: right;
+    margin-right: 220px;
+}
+
+
+/* to change the anchor tag to white and to postion it in it's respective place */
+
+.top>a {
+    text-transform: uppercase;
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+
+/* to get the social media icons in a square box and improve there look and feel */
+
+.fab {
+    padding: 10px 15px;
+    color: #777;
+}
+
+
+/* to get the social media icons in a square box and improve there look and feel */
+
+.fas {
+    padding: 10px 15px;
+    color: #777;
+}
+
+
+/* navigation bar */
+
+nav {
+    text-align: center;
+    padding-top: 40px;
+}
+
+nav>a {
+    background-color: #a71f2b;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 11px 20px;
+    width: 200px;
+    box-shadow: 1px 2px 4px rgba(223, 217, 217, 0.575);
+    display: inline-block;
+    list-style-type: none;
+}
+
+.mainBannerImage {
+    width: 971px;
+    height: 300px;
+    margin: auto;
+}
+
+.mainPageImage {
+    height: 100%;
+    background-color: black;
+    background-image: url("assets/top-image.png");
+    background-position: 50% 25%;
+    object-fit: cover;
+    border: 10px solid white;
+    margin-top: 15px;
+    box-shadow: 50px 50px 50px rgba(223, 217, 217, 0.575);
+}
+
+.gradient {
+    background-image: url("assets/grid.png");
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.newsArticle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    margin: 20px 0px;
+    list-style-type: none;
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+}
+
+.news {
+    display: ;
+    background-color: #fefefe;
+    padding: 15px;
+}
+
+.news>h1 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0px;
+    font-size: 22px;
+}
+
+.news>h2 {
+    text-align: center;
+    font-size: 16px;
+    color: darkred;
+    font-family: "Roboto", sans-serif;
+}
+
+.news>h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: grey;
+}
+
+.news>h6 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: darkgrey;
+}
+
+.lance {
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.lance>img {
+    max-height: 100%;
+    width: 280px;
+    margin-right: 10px;
+    border: 10px solid white;
+}
+
+.rodney {
+    margin-top: 20px;
+}
+
+.rodney>img {
+    max-height: 100%;
+    width: 280px;
+    border: 10px solid white;
+}
+
+.lanceAndRodney {
+    display: flex;
+    flex-direction: row;
+}
+
+.tommy {
+    overflow: hidden;
+    border: 10px solid white;
+    height: 450px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.tommy>img {
+    width: 750px;
+    height: 100%;
+    object-position: -382px 0px;
+}
+
+.steve {
+    position: absolute;
+    margin-top: 221px;
+    height: 248px;
+    overflow: hidden;
+    border: 10px solid white;
+}
+
+.steve>img {
+    width: 590px;
+}
+
+.skateboards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.contactSubmission {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 15px;
+}
+
+.contactSubmission>input {
+    margin: 10px;
+    padding: 15px;
+}
+
+.contactSubmission>textarea {
+    margin: 10px;
+    height: 50px;
+    width: 398px;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.btnSubmit {
+    width: 200px;
+    margin-left: 203px;
+    background-color: darkred;
+    padding: 10px;
+    margin-left: 225px;
+}
+
+.moreInfo {
+    padding: 30px;
+    font-family: Roboto;
+}
+
+.bottom>i {
+    color: #818181;
+}
