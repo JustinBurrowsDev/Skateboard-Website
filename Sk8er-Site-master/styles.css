@@ -85,6 +85,11 @@ nav>a {
     opacity: 0.5;
 }
 
+.gradient>img {
+    margin-top: 45px;
+    margin-left: 20px;
+}
+
 .newsArticle {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
